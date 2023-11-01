@@ -18,8 +18,6 @@ public class UserDataApp {
     }
 
     private static String[] getUserData() throws InvalidDataException {
-        // Здесь можно реализовать логику ввода данных пользователем
-        // В данном примере ввод данных происходит вручную
         System.out.print("Введите данные: ");
         Scanner scn = new Scanner(System.in);
         String input = scn.nextLine();
